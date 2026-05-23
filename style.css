@@ -1,0 +1,54 @@
+body {
+background-color: rgb(180, 210, 255);
+font-family: Arial, sans-serif;
+}
+
+.nevkod {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+}
+
+.doboz {
+    width: 650px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: rgb(160, 200, 245);
+    border: 2px solid black;
+}
+
+h1 {
+    text-align:center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bal {
+    width: 300px;
+}
+
+label {
+    display: inline-black;
+    width: 80px;
+    margin-top: 12px;
+}
+input, select {
+    width: 150px;
+    padding: 4px;
+}
+
+button {
+    margin-top: 15px;
+    margin-left: 85px;
+}
+
+img {
+    width: 260px;
+    height: 170px;
+    object-fit: cover;
+}
